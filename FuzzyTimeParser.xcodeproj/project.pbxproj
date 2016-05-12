@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9BCDF81CE348D300B49D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BCDF71CE348D300B49D67 /* AppDelegate.swift */; };
+		EA9BCDFA1CE348D300B49D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BCDF91CE348D300B49D67 /* ViewController.swift */; };
+		EA9BCDFD1CE348D300B49D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9BCDFB1CE348D300B49D67 /* Main.storyboard */; };
+		EA9BCDFF1CE348D300B49D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9BCDFE1CE348D300B49D67 /* Assets.xcassets */; };
+		EA9BCE021CE348D300B49D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9BCE001CE348D300B49D67 /* LaunchScreen.storyboard */; };
+		EA9BCE0D1CE348D300B49D67 /* FuzzyTimeParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BCE0C1CE348D300B49D67 /* FuzzyTimeParserTests.swift */; };
+		EA9BCE181CE3491B00B49D67 /* FuzzyTimeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9BCE171CE3491B00B49D67 /* FuzzyTimeParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9BCE091CE348D300B49D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9BCDEC1CE348D300B49D67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9BCDF31CE348D300B49D67;
+			remoteInfo = FuzzyTimeParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA9BCDF41CE348D300B49D67 /* FuzzyTimeParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuzzyTimeParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BCDF71CE348D300B49D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA9BCDF91CE348D300B49D67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA9BCDFC1CE348D300B49D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9BCDFE1CE348D300B49D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9BCE011CE348D300B49D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA9BCE031CE348D300B49D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9BCE081CE348D300B49D67 /* FuzzyTimeParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuzzyTimeParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9BCE0C1CE348D300B49D67 /* FuzzyTimeParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzyTimeParserTests.swift; sourceTree = "<group>"; };
+		EA9BCE0E1CE348D300B49D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9BCE171CE3491B00B49D67 /* FuzzyTimeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuzzyTimeParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9BCDF11CE348D300B49D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BCE051CE348D300B49D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9BCDEB1CE348D300B49D67 = {
+			isa = PBXGroup;
+			children = (
+				EA9BCDF61CE348D300B49D67 /* FuzzyTimeParser */,
+				EA9BCE0B1CE348D300B49D67 /* FuzzyTimeParserTests */,
+				EA9BCDF51CE348D300B49D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9BCDF51CE348D300B49D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BCDF41CE348D300B49D67 /* FuzzyTimeParser.app */,
+				EA9BCE081CE348D300B49D67 /* FuzzyTimeParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9BCDF61CE348D300B49D67 /* FuzzyTimeParser */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BCDF71CE348D300B49D67 /* AppDelegate.swift */,
+				EA9BCDF91CE348D300B49D67 /* ViewController.swift */,
+				EA9BCE171CE3491B00B49D67 /* FuzzyTimeParser.swift */,
+				EA9BCDFB1CE348D300B49D67 /* Main.storyboard */,
+				EA9BCDFE1CE348D300B49D67 /* Assets.xcassets */,
+				EA9BCE001CE348D300B49D67 /* LaunchScreen.storyboard */,
+				EA9BCE031CE348D300B49D67 /* Info.plist */,
+			);
+			path = FuzzyTimeParser;
+			sourceTree = "<group>";
+		};
+		EA9BCE0B1CE348D300B49D67 /* FuzzyTimeParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9BCE0C1CE348D300B49D67 /* FuzzyTimeParserTests.swift */,
+				EA9BCE0E1CE348D300B49D67 /* Info.plist */,
+			);
+			path = FuzzyTimeParserTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9BCDF31CE348D300B49D67 /* FuzzyTimeParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9BCE111CE348D300B49D67 /* Build configuration list for PBXNativeTarget "FuzzyTimeParser" */;
+			buildPhases = (
+				EA9BCDF01CE348D300B49D67 /* Sources */,
+				EA9BCDF11CE348D300B49D67 /* Frameworks */,
+				EA9BCDF21CE348D300B49D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuzzyTimeParser;
+			productName = FuzzyTimeParser;
+			productReference = EA9BCDF41CE348D300B49D67 /* FuzzyTimeParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9BCE071CE348D300B49D67 /* FuzzyTimeParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9BCE141CE348D300B49D67 /* Build configuration list for PBXNativeTarget "FuzzyTimeParserTests" */;
+			buildPhases = (
+				EA9BCE041CE348D300B49D67 /* Sources */,
+				EA9BCE051CE348D300B49D67 /* Frameworks */,
+				EA9BCE061CE348D300B49D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9BCE0A1CE348D300B49D67 /* PBXTargetDependency */,
+			);
+			name = FuzzyTimeParserTests;
+			productName = FuzzyTimeParserTests;
+			productReference = EA9BCE081CE348D300B49D67 /* FuzzyTimeParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9BCDEC1CE348D300B49D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dnpp.org;
+				TargetAttributes = {
+					EA9BCDF31CE348D300B49D67 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EA9BCE071CE348D300B49D67 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EA9BCDF31CE348D300B49D67;
+					};
+				};
+			};
+			buildConfigurationList = EA9BCDEF1CE348D300B49D67 /* Build configuration list for PBXProject "FuzzyTimeParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9BCDEB1CE348D300B49D67;
+			productRefGroup = EA9BCDF51CE348D300B49D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9BCDF31CE348D300B49D67 /* FuzzyTimeParser */,
+				EA9BCE071CE348D300B49D67 /* FuzzyTimeParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9BCDF21CE348D300B49D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BCE021CE348D300B49D67 /* LaunchScreen.storyboard in Resources */,
+				EA9BCDFF1CE348D300B49D67 /* Assets.xcassets in Resources */,
+				EA9BCDFD1CE348D300B49D67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BCE061CE348D300B49D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9BCDF01CE348D300B49D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BCDFA1CE348D300B49D67 /* ViewController.swift in Sources */,
+				EA9BCDF81CE348D300B49D67 /* AppDelegate.swift in Sources */,
+				EA9BCE181CE3491B00B49D67 /* FuzzyTimeParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9BCE041CE348D300B49D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BCE0D1CE348D300B49D67 /* FuzzyTimeParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9BCE0A1CE348D300B49D67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9BCDF31CE348D300B49D67 /* FuzzyTimeParser */;
+			targetProxy = EA9BCE091CE348D300B49D67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9BCDFB1CE348D300B49D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9BCDFC1CE348D300B49D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9BCE001CE348D300B49D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9BCE011CE348D300B49D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9BCE0F1CE348D300B49D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA9BCE101CE348D300B49D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9BCE121CE348D300B49D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuzzyTimeParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dnpp.FuzzyTimeParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA9BCE131CE348D300B49D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuzzyTimeParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dnpp.FuzzyTimeParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA9BCE151CE348D300B49D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuzzyTimeParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dnpp.FuzzyTimeParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuzzyTimeParser.app/FuzzyTimeParser";
+			};
+			name = Debug;
+		};
+		EA9BCE161CE348D300B49D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuzzyTimeParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dnpp.FuzzyTimeParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuzzyTimeParser.app/FuzzyTimeParser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9BCDEF1CE348D300B49D67 /* Build configuration list for PBXProject "FuzzyTimeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BCE0F1CE348D300B49D67 /* Debug */,
+				EA9BCE101CE348D300B49D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9BCE111CE348D300B49D67 /* Build configuration list for PBXNativeTarget "FuzzyTimeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BCE121CE348D300B49D67 /* Debug */,
+				EA9BCE131CE348D300B49D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9BCE141CE348D300B49D67 /* Build configuration list for PBXNativeTarget "FuzzyTimeParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9BCE151CE348D300B49D67 /* Debug */,
+				EA9BCE161CE348D300B49D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9BCDEC1CE348D300B49D67 /* Project object */;
+}
